@@ -7,9 +7,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/myhelix/contextlogger/log"
-	"github.com/myhelix/contextlogger/providers"
-	"github.com/myhelix/contextlogger/providers/chaining"
+	"github.com/yeaji-helix/contextlogger/log"
+	"github.com/yeaji-helix/contextlogger/providers"
+	"github.com/yeaji-helix/contextlogger/providers/chaining"
 )
 
 type LogCallArgs struct {

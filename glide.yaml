@@ -1,4 +1,4 @@
-package: github.com/myhelix/contextlogger
+package: github.com/yeaji-helix/contextlogger
 import:
 - package: github.com/sirupsen/logrus
   version: 1.4.0

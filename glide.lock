@@ -1,12 +1,12 @@
-hash: ea74bd4f59fce8b2aad997b65314a03480b66ff06b82cb94dda8b58eaf6d9049
-updated: 2019-04-01T14:14:39.235575-07:00
+hash: 4f065286af6709820b97dfa7c5166fbdbd3938179545c02a2b2fcda1ccb7da7e
+updated: 2022-02-23T09:58:03.876703-08:00
 imports:
 - name: github.com/ansel1/merry
   version: 19fac03b26a7fbac650b3400de27355e96565319
 - name: github.com/go-errors/errors
   version: a6af135bd4e28680facf08a3d206b454abc877a4
 - name: github.com/konsorten/go-windows-terminal-sequences
-  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+  version: edb144dfd453055e1e49a3d8b410a660b5a87613
 - name: github.com/myhelix/rollbar
   version: 41394a7897169d9f5cd43a6ee6ae82518e30a7f2
 - name: github.com/newrelic/go-agent
@@ -21,14 +21,18 @@ imports:
 - name: github.com/sirupsen/logrus
   version: dae0fa8d5b0c810a8ab733fbd5510c7cae84eca4
 - name: golang.org/x/crypto
-  version: a5d413f7728c81fb97d96a2b722368945f651e78
+  version: 86341886e2925764dc890ad96c141a1bc76043af
   subpackages:
   - ssh/terminal
 - name: golang.org/x/sys
-  version: c8c8c57fd1e1a977c10821a559dda983a9a9a3b5
+  version: 96fed51e1446b281c21df947901d008675fca442
   subpackages:
+  - internal/unsafeheader
+  - plan9
   - unix
   - windows
+- name: golang.org/x/term
+  version: 03fcf44c2211dcd5eb77510b5f7c1fb02d6ded50
 testImports:
 - name: github.com/hpcloud/tail
   version: a1dbeea552b7c8df4b542c66073e393de198a800
@@ -58,7 +62,7 @@ testImports:
   - reporters/stenographer/support/go-isatty
   - types
 - name: github.com/onsi/gomega
-  version: 5533ce8a0da374da682cd53d70ddcc54adf1a710
+  version: f9a52764bd5a0fd2d201bcca584351d03b72f8da
   subpackages:
   - format
   - internal/assertion
@@ -72,13 +76,13 @@ testImports:
   - matchers/support/goraph/util
   - types
 - name: golang.org/x/net
-  version: d8887717615a059821345a5c23649351b52a1c0b
+  version: cd36cc0744dd695657988f15f08446dc81e16efc
   subpackages:
   - html
   - html/atom
   - html/charset
 - name: golang.org/x/text
-  version: 5d731a35f4867878fc89f7744f7b6debb3beded6
+  version: d1c84af989ab0f62cd853b5ae33b1b4db4f1e88b
   subpackages:
   - encoding
   - encoding/charmap
@@ -98,8 +102,8 @@ testImports:
   - runes
   - transform
 - name: gopkg.in/fsnotify/fsnotify.v1
-  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+  version: 466b39d216616549a37ee93c7c47775f6a010790
 - name: gopkg.in/tomb.v1
   version: c131134a1947e9afd9cecfe11f4c6dff0732ae58
 - name: gopkg.in/yaml.v2
-  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+  version: 7649d4548cb53a614db133b2a8ac1f31859dda8c

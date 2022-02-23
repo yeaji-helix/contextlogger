@@ -8,10 +8,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/myhelix/contextlogger/providers"
-	cl_logrus "github.com/myhelix/contextlogger/providers/logrus"
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
+	"github.com/yeaji-helix/contextlogger/providers"
+	cl_logrus "github.com/yeaji-helix/contextlogger/providers/logrus"
 )
 
 var output *bytes.Buffer
